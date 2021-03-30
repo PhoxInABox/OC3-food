@@ -736,10 +736,10 @@ label.select-button i {
   background-color: #99e2d0;
   transform: scaleY(0);
 }
-.menu-select article .card-label label i {
+/*.menu-select article .card-label label i {
   box-shadow: 0px;
   border: 0;
-}
+} If shadow needs to be added*/
 .menu-select article input.select-button:checked + .card-label__title h3 i {
   transform: scale(1);
 }
@@ -808,7 +808,7 @@ label.select-button i {
   padding: 15px 22px;
   border-radius: 30px;
   border: none;
-  font-weight: medium;
+  /*font-weight: medium;*/
   font-size: 15px;
   color: white;
   background: #9356dc;
